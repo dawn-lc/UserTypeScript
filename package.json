@@ -1,0 +1,19 @@
+{
+  "name": "usertypescript",
+  "displayName": "UserTypescript",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node ./build/build.js",
+    "release": "node ./build/release.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/greasemonkey": "^4.0.4",
+    "@types/tampermonkey": "^4.0.10",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.7.2"
+  }
+}
