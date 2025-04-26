@@ -28,7 +28,7 @@
 3. 开发脚本：
    - 主入口文件：`src/main.ts`
    - 样式文件：`src/css/main.css`
-   - 类型定义：`src/css/main.d.ts`
+   - 类型定义：`src/types/main.d.ts`
   
 4. 构建脚本：
    ```bash
