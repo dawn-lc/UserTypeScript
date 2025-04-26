@@ -1,4 +1,5 @@
-GM_addStyle('@!mainCSS!@');
+import mainCSS from "./css/main.css";
+GM_addStyle(mainCSS);
 async function main() {
     // do something
 }

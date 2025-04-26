@@ -8,12 +8,9 @@
     "build": "node ./build/build.js",
     "release": "node ./build/release.js"
   },
-  "dependencies": {
-  },
   "devDependencies": {
-    "@types/greasemonkey": "^4.0.4",
     "@types/tampermonkey": "^4.0.10",
-    "esbuild": "^0.24.0",
+    "esbuild": "^0.25.3",
     "typescript": "^5.7.2"
   }
 }

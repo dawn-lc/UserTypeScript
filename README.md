@@ -27,8 +27,8 @@
 
 3. 开发脚本：
    - 主入口文件：`src/main.ts`
-   - 样式文件：`src/main.css`
-   - 类型定义：`src/main.d.ts`
+   - 样式文件：`src/css/main.css`
+   - 类型定义：`src/css/main.d.ts`
   
 4. 构建脚本：
    ```bash
@@ -48,26 +48,11 @@
    - 开发阶段：在dev分支进行开发，push代码会自动发布预览版
    - 发布阶段：合并到master分支会自动发布正式版
 
-## 项目结构
-
-```
-.
-├── .github/workflows/  # GitHub Actions 工作流
-├── build/              # 构建脚本
-├── src/                # 源代码
-│   ├── main.css        # 样式文件
-│   ├── main.d.ts       # 类型定义
-│   ├── main.ts         # 主脚本文件
-│   └── userjs.mata     # 用户脚本元数据模板
-├── package.json        # 项目配置
-└── tsconfig.json       # TypeScript 配置
-```
-
 ## 注意事项
 
-1. 修改 `src/userjs.mata` 文件中的元数据信息
+1. 修改 `src/mata/userjs.mata` 文件中的元数据信息
 2. 在 `src/main.ts` 中编写核心逻辑
-3. 如果需要自定义样式，请修改 `src/main.css`，样式会自动注入到最终输出
+3. 如果需要自定义样式，请修改 `src/css/main.css`，样式会自动注入到最终输出
 4. 分支管理：
    - dev分支：用于日常开发，push会自动发布预览版
    - master分支：用于正式发布，push会自动发布正式版
